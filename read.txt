@@ -1,0 +1,7 @@
+Пояснения к коду. 
+Класс GameAreaHelper. 
+Вынес поля из функции IsInGameplayArea в класс для расширения области видимости. Данные поля я также применил в функциях LeftBoundsCollisiton и RightBoundCollision.
+Применил к классу паттерн проектирования Singleton для избежания ошибок при работе с классом SceneManager.
+
+Использовал дополнительную графику и эффекты из Ассет-пака: 
+https://assetstore.unity.com/packages/templates/packs/space-shooter-free-107260
